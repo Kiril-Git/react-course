@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>React Basics</title>
+</head>
+<body>
+<div class="js-container"></div>
+
+<script src="https://unpkg.com/supersimpledev/react.js"></script>
+<script src="https://unpkg.com/supersimpledev/react-dom.js"></script>
+
+<script src="https://unpkg.com/supersimpledev/babel.js"></script>
+
+<script src="https://unpkg.com/supersimpledev/dayjs.js"></script>
+
+<script type="text/babel">
+
+    const container = document.querySelector('.js-container');
+    const root = ReactDOM.createRoot(container)
+
+    function renderClock() {
+
+    const button = <button>Hello Honey</button>
+    const paragraph = <p>Hello, Paragraph Text!</p>
+
+    let productCost = 10 + 3*8
+    let shippingCost = 5
+    let date = dayjs().format('YYYY-MM-DD')
+    let time = dayjs().format('HH:mm:ss')
+
+    const div = (
+        <div>
+            <p>Date: {date}</p>
+            <p>Time: {time}</p>
+
+            <p>Product Cost: ${10 + 2*8}</p>
+            <p>Product Cost: ${productCost}</p>
+            <p>Shipping Cost: ${shippingCost}</p>
+            <p>Total Cost: ${productCost + shippingCost + 10 + 2*8}</p>
+
+            <button>Place your order</button>
+        </div>
+    )
+
+
+    root.render(div)
+    }
+    setInterval(renderClock, 1000)
+
+</script>
+</body>
+</html>
+
+
+
