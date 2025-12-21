@@ -5,7 +5,9 @@ import './HomePage.css'
 export function HomePage() {
     return (
         <>
-        <div className="header">
+            <title>Ecommerce Project</title>
+
+            <div className="header">
             <div className="left-section">
                 <a href="index.html" className="header-link">
                     <img className="logo"
@@ -37,7 +39,7 @@ export function HomePage() {
             </div>
         </div>
 
-        <div className="home-page">
+            <div className="home-page">
         <div className="products-grid">
             <div className="product-container">
                 <div className="product-image-container">
@@ -190,3 +192,4 @@ export function HomePage() {
         </>
 )
 }
+
