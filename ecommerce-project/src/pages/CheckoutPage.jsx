@@ -1,10 +1,12 @@
-import './checkout-header.css'
+import { Header } from "../components/Header.jsx";
 import './CheckoutPage.css'
 
 
 export function CheckoutPage() {
     return (
         <>
+            <Header />
+
             <title>Checkout</title>
 
             <div className="checkout-header">
