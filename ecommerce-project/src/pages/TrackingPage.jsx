@@ -12,9 +12,9 @@ export function TrackingPage() {
                 <div className="left-section">
                     <a href="/" className="header-link">
                         <img className="logo"
-                             src="../public/images/logo-white.png" />
+                             src="/images/logo-white.png" />
                         <img className="mobile-logo"
-                             src="../public/images/mobile-logo-white.png" />
+                             src="/images/mobile-logo-white.png" />
                     </a>
                 </div>
 
@@ -22,7 +22,7 @@ export function TrackingPage() {
                     <input className="search-bar" type="text" placeholder="Search" />
 
                     <button className="search-button">
-                        <img className="search-icon" src="../public/images/icons/search-icon.png" />
+                        <img className="search-icon" src="/images/icons/search-icon.png" />
                     </button>
                 </div>
 
@@ -33,7 +33,7 @@ export function TrackingPage() {
                     </a>
 
                     <a className="cart-link header-link" href="/checkout">
-                        <img className="cart-icon" src="../public/images/icons/cart-icon.png" />
+                        <img className="cart-icon" src="/images/icons/cart-icon.png" />
                         <div className="cart-quantity">3</div>
                         <div className="cart-text">Cart</div>
                     </a>
@@ -58,7 +58,7 @@ export function TrackingPage() {
                         Quantity: 1
                     </div>
 
-                    <img className="product-image" src="../public/images/products/athletic-cotton-socks-6-pairs.jpg" />
+                    <img className="product-image" src="/images/products/athletic-cotton-socks-6-pairs.jpg" />
 
                     <div className="progress-labels-container">
                         <div className="progress-label">
