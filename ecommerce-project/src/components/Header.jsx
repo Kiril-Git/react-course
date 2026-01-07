@@ -2,7 +2,6 @@ import { NavLink } from "react-router-dom";
 import './Header.css'
 
 export function Header() {
-    console.log("HEADER RENDERED");
 
     return (
 
@@ -32,7 +31,6 @@ export function Header() {
                     to="/orders"
                     end
                     className={({ isActive }) => {
-                        console.log("isActive:", isActive, "pathname:", window.location.pathname);
                         return `orders-link header-link${isActive ? " active" : ""}`;
                     }}
 

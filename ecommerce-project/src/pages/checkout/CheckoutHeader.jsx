@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import './CheckoutHeader.css'
 
 export function CheckoutHeader() {
@@ -16,7 +16,7 @@ export function CheckoutHeader() {
 
                 <div className="checkout-header-middle-section">
                     Checkout (<Link className="return-to-home-link"
-                                 to="/ecommerce-project/public">3 items</Link>)
+                                 to="/">3 items</Link>)
                 </div>
 
                 <div className="checkout-header-right-section">
@@ -26,3 +26,4 @@ export function CheckoutHeader() {
         </div>
     )
 }
+
