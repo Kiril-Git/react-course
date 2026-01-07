@@ -3,8 +3,11 @@ import './HomePage.css'
 
 
 export function HomePage() {
+
     return (
         <>
+            <link rel="icon" type="image/png" href="/home-favicon.png" />
+
             <Header />
 
             <title>Ecommerce Project</title>
