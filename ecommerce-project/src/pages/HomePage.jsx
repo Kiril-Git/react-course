@@ -6,7 +6,7 @@ export function HomePage() {
 
     return (
         <>
-            <link rel="icon" type="image/png" href="/home-favicon.png" />
+            <link rel="icon" type="image/png" href="/ecommerce-project/src/assets/images/home-favicon.png" />
 
             <Header />
 
@@ -54,7 +54,7 @@ export function HomePage() {
                 <div className="product-spacer"></div>
 
                 <div className="added-to-cart">
-                    <img src="/images/icons/checkmark.png"/>
+                    <img src="/ecommerce-project/src/assets/images/icons/checkmark.png"/>
                     Added
                 </div>
 
@@ -103,7 +103,7 @@ export function HomePage() {
                 <div className="product-spacer"></div>
 
                 <div className="added-to-cart">
-                    <img src="/images/icons/checkmark.png"/>
+                    <img src="/ecommerce-project/src/assets/images/icons/checkmark.png"/>
                     Added
                 </div>
 
@@ -152,7 +152,7 @@ export function HomePage() {
                 <div className="product-spacer"></div>
 
                 <div className="added-to-cart">
-                    <img src="/images/icons/checkmark.png"/>
+                    <img src="/ecommerce-project/src/assets/images/icons/checkmark.png"/>
                     Added
                 </div>
 

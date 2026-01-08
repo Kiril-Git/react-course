@@ -5,7 +5,7 @@ import {Link} from "react-router";
 export function TrackingPage() {
     return (
         <>
-            <link rel="icon" type="image/png" href="/tracking-favicon.png" />
+            <link rel="icon" type="image/png" href="/ecommerce-project/src/assets/images/tracking-favicon.png" />
 
             <Header />
 
